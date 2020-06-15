@@ -22,5 +22,31 @@ namespace ClockApp
             DateTime now = DateTime.Now;
             label1.Text = now.ToString("HH:mm:ss");
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            MessageBox.Show("Form 로드시 발생");
+        }
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (MessageBox.Show("진짜 닫을래?", "경고",
+                MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                e.Cancel = false;           // 종료
+            }
+            else 
+            {
+                e.Cancel = true;            // 종료캔슬
+            }
+            //MessageBox.Show("Form 클로즈시 발생");
+
+        }
+
+        private void Form1_Activated(object sender, EventArgs e)
+        {
+            MessageBox.Show("Form 활성화 시 발생");
+
+        }
     }
 }
