@@ -35,6 +35,19 @@ namespace GenericApp
     {
         static void Main(string[] args)
         {
+            SimpleGeneric<Int32> gInteger = new SimpleGeneric<Int32>(10);
+            SimpleGeneric<Double> gDouble = new SimpleGeneric<Double>(10);
+
+            gInteger.Add(1, 2);
+            gInteger.Add(1, 2, 3, 4, 5, 6, 7);
+            gInteger.Add(0);
+            gInteger.Print();
+            // 1 2 1 2 3 4 5 6 7 0
+
+
+            gDouble.Add(10.0, 20.0, 30.0);
+            gDouble.Print();
+            // 10 20 30 0 0 0 0 0 0 0 
         }
     }
 }
