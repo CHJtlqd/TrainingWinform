@@ -28,84 +28,103 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.BtnFlat = new System.Windows.Forms.Button();
+            this.BtnPopup = new System.Windows.Forms.Button();
+            this.BtnStandard = new System.Windows.Forms.Button();
+            this.BtnSystem = new System.Windows.Forms.Button();
+            this.LblButtonStyle = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // button1
+            // BtnFlat
             // 
-            this.button1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button1.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.button1.Location = new System.Drawing.Point(108, 79);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(156, 111);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Flat";
-            this.button1.UseVisualStyleBackColor = false;
+            this.BtnFlat.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.BtnFlat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnFlat.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.BtnFlat.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.BtnFlat.Location = new System.Drawing.Point(108, 79);
+            this.BtnFlat.Name = "BtnFlat";
+            this.BtnFlat.Size = new System.Drawing.Size(156, 111);
+            this.BtnFlat.TabIndex = 0;
+            this.BtnFlat.Text = "Flat";
+            this.BtnFlat.UseVisualStyleBackColor = false;
+            this.BtnFlat.Click += new System.EventHandler(this.BtnFlat_Click);
             // 
-            // button2
+            // BtnPopup
             // 
-            this.button2.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button2.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button2.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.button2.Location = new System.Drawing.Point(504, 79);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(156, 111);
-            this.button2.TabIndex = 0;
-            this.button2.Text = "Popup";
-            this.button2.UseVisualStyleBackColor = false;
+            this.BtnPopup.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.BtnPopup.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.BtnPopup.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.BtnPopup.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.BtnPopup.Location = new System.Drawing.Point(504, 79);
+            this.BtnPopup.Name = "BtnPopup";
+            this.BtnPopup.Size = new System.Drawing.Size(156, 111);
+            this.BtnPopup.TabIndex = 1;
+            this.BtnPopup.Text = "Popup";
+            this.BtnPopup.UseVisualStyleBackColor = false;
+            this.BtnPopup.Click += new System.EventHandler(this.BtnPopup_Click);
             // 
-            // button3
+            // BtnStandard
             // 
-            this.button3.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.button3.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button3.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.button3.Location = new System.Drawing.Point(108, 277);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(156, 111);
-            this.button3.TabIndex = 0;
-            this.button3.Text = "Standard";
-            this.button3.UseVisualStyleBackColor = false;
+            this.BtnStandard.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.BtnStandard.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.BtnStandard.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.BtnStandard.Location = new System.Drawing.Point(108, 277);
+            this.BtnStandard.Name = "BtnStandard";
+            this.BtnStandard.Size = new System.Drawing.Size(156, 111);
+            this.BtnStandard.TabIndex = 2;
+            this.BtnStandard.Text = "Standard";
+            this.BtnStandard.UseVisualStyleBackColor = false;
+            this.BtnStandard.Click += new System.EventHandler(this.BtnStandard_Click);
             // 
-            // button4
+            // BtnSystem
             // 
-            this.button4.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.button4.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button4.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.button4.Location = new System.Drawing.Point(504, 277);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(156, 111);
-            this.button4.TabIndex = 0;
-            this.button4.Text = "System";
-            this.button4.UseVisualStyleBackColor = false;
+            this.BtnSystem.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.BtnSystem.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.BtnSystem.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.BtnSystem.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.BtnSystem.Location = new System.Drawing.Point(504, 277);
+            this.BtnSystem.Name = "BtnSystem";
+            this.BtnSystem.Size = new System.Drawing.Size(156, 111);
+            this.BtnSystem.TabIndex = 3;
+            this.BtnSystem.Text = "System";
+            this.BtnSystem.UseVisualStyleBackColor = false;
+            this.BtnSystem.Click += new System.EventHandler(this.BtnSystem_Click);
+            // 
+            // LblButtonStyle
+            // 
+            this.LblButtonStyle.AutoSize = true;
+            this.LblButtonStyle.Font = new System.Drawing.Font("나눔고딕코딩", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.LblButtonStyle.Location = new System.Drawing.Point(12, 406);
+            this.LblButtonStyle.Name = "LblButtonStyle";
+            this.LblButtonStyle.Size = new System.Drawing.Size(117, 34);
+            this.LblButtonStyle.TabIndex = 1;
+            this.LblButtonStyle.Text = "label1";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.LblButtonStyle);
+            this.Controls.Add(this.BtnSystem);
+            this.Controls.Add(this.BtnStandard);
+            this.Controls.Add(this.BtnPopup);
+            this.Controls.Add(this.BtnFlat);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button BtnFlat;
+        private System.Windows.Forms.Button BtnPopup;
+        private System.Windows.Forms.Button BtnStandard;
+        private System.Windows.Forms.Button BtnSystem;
+        private System.Windows.Forms.Label LblButtonStyle;
     }
 }
 

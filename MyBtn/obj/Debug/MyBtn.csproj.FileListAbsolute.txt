@@ -1,0 +1,10 @@
+C:\SRC\TrainingWinform\MyBtn\bin\Debug\MyBtn.exe.config
+C:\SRC\TrainingWinform\MyBtn\bin\Debug\MyBtn.exe
+C:\SRC\TrainingWinform\MyBtn\bin\Debug\MyBtn.pdb
+C:\SRC\TrainingWinform\MyBtn\obj\Debug\MyBtn.csprojAssemblyReference.cache
+C:\SRC\TrainingWinform\MyBtn\obj\Debug\MyBtn.Form1.resources
+C:\SRC\TrainingWinform\MyBtn\obj\Debug\MyBtn.Properties.Resources.resources
+C:\SRC\TrainingWinform\MyBtn\obj\Debug\MyBtn.csproj.GenerateResource.cache
+C:\SRC\TrainingWinform\MyBtn\obj\Debug\MyBtn.csproj.CoreCompileInputs.cache
+C:\SRC\TrainingWinform\MyBtn\obj\Debug\MyBtn.exe
+C:\SRC\TrainingWinform\MyBtn\obj\Debug\MyBtn.pdb

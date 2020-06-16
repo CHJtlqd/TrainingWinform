@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClockApp", "..\ClockApp\Clo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBtn", "..\MyBtn\MyBtn.csproj", "{0CF4B070-3092-4951-8162-10AD4EC90542}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckBoxTestApp", "..\CheckBoxTestApp\CheckBoxTestApp.csproj", "{CA4A23F6-6E8C-4D53-8B6F-6BE2EC3CE155}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadioButtonTestApp", "..\RadioButtonTestApp\RadioButtonTestApp.csproj", "{DBA4F383-CCF2-4606-BA10-02C47F7B1947}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{0CF4B070-3092-4951-8162-10AD4EC90542}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0CF4B070-3092-4951-8162-10AD4EC90542}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0CF4B070-3092-4951-8162-10AD4EC90542}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA4A23F6-6E8C-4D53-8B6F-6BE2EC3CE155}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA4A23F6-6E8C-4D53-8B6F-6BE2EC3CE155}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA4A23F6-6E8C-4D53-8B6F-6BE2EC3CE155}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA4A23F6-6E8C-4D53-8B6F-6BE2EC3CE155}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBA4F383-CCF2-4606-BA10-02C47F7B1947}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBA4F383-CCF2-4606-BA10-02C47F7B1947}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBA4F383-CCF2-4606-BA10-02C47F7B1947}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBA4F383-CCF2-4606-BA10-02C47F7B1947}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
