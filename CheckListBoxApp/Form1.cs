@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace LoginApp
+namespace CheckListBoxApp
 {
     public partial class Form1 : Form
     {
@@ -19,11 +19,14 @@ namespace LoginApp
 
         private void button1_Click(object sender, EventArgs e)
         {
-            textBox4.Text = $"ID : {textBox3.Text}\r\nPASSWORD : {textBox1.Text}";
-            if (textBox3.Text.ToUpper() == "ADMIN" && textBox1.Text.ToUpper() == "P@SSW0RD!")
+            
+            var strTemp = "";
+            foreach (var item in checkedListBox1.CheckedItems)
             {
-                MessageBox.Show("관리자로그인");
+                strTemp += item.ToString() + " ";
             }
+            MessageBox.Show($"당신의 취미는 {strTemp}입니다.", "확인", MessageBoxButtons.OK,
+                MessageBoxIcon.Information);
         }
     }
 }

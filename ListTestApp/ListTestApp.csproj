@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{774B8EED-77C7-4E5F-BFF4-08B3A28A3E0D}</ProjectGuid>
+    <ProjectGuid>{770B40F2-E251-4C0A-93DF-CB3B87E3987D}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>LoginApp</RootNamespace>
-    <AssemblyName>LoginApp</AssemblyName>
+    <RootNamespace>ListTestApp</RootNamespace>
+    <AssemblyName>ListTestApp</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

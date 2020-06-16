@@ -1,0 +1,11 @@
+C:\SRC\TrainingWinform\ModalDigApp\bin\Debug\ModalDigApp.exe.config
+C:\SRC\TrainingWinform\ModalDigApp\bin\Debug\ModalDigApp.exe
+C:\SRC\TrainingWinform\ModalDigApp\bin\Debug\ModalDigApp.pdb
+C:\SRC\TrainingWinform\ModalDigApp\obj\Debug\ModalDigApp.csprojAssemblyReference.cache
+C:\SRC\TrainingWinform\ModalDigApp\obj\Debug\ModalDigApp.Form1.resources
+C:\SRC\TrainingWinform\ModalDigApp\obj\Debug\ModalDigApp.Form2.resources
+C:\SRC\TrainingWinform\ModalDigApp\obj\Debug\ModalDigApp.Properties.Resources.resources
+C:\SRC\TrainingWinform\ModalDigApp\obj\Debug\ModalDigApp.csproj.GenerateResource.cache
+C:\SRC\TrainingWinform\ModalDigApp\obj\Debug\ModalDigApp.csproj.CoreCompileInputs.cache
+C:\SRC\TrainingWinform\ModalDigApp\obj\Debug\ModalDigApp.exe
+C:\SRC\TrainingWinform\ModalDigApp\obj\Debug\ModalDigApp.pdb
