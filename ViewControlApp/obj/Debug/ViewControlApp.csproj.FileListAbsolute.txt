@@ -1,0 +1,10 @@
+C:\SRC\TrainingWinform\ViewControlApp\bin\Debug\ViewControlApp.exe.config
+C:\SRC\TrainingWinform\ViewControlApp\bin\Debug\ViewControlApp.exe
+C:\SRC\TrainingWinform\ViewControlApp\bin\Debug\ViewControlApp.pdb
+C:\SRC\TrainingWinform\ViewControlApp\obj\Debug\ViewControlApp.csprojAssemblyReference.cache
+C:\SRC\TrainingWinform\ViewControlApp\obj\Debug\ViewControlApp.Form1.resources
+C:\SRC\TrainingWinform\ViewControlApp\obj\Debug\ViewControlApp.Properties.Resources.resources
+C:\SRC\TrainingWinform\ViewControlApp\obj\Debug\ViewControlApp.csproj.GenerateResource.cache
+C:\SRC\TrainingWinform\ViewControlApp\obj\Debug\ViewControlApp.csproj.CoreCompileInputs.cache
+C:\SRC\TrainingWinform\ViewControlApp\obj\Debug\ViewControlApp.exe
+C:\SRC\TrainingWinform\ViewControlApp\obj\Debug\ViewControlApp.pdb

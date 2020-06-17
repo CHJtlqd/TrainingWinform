@@ -1,0 +1,10 @@
+C:\SRC\TrainingWinform\TimerApp\bin\Debug\TimerApp.exe.config
+C:\SRC\TrainingWinform\TimerApp\bin\Debug\TimerApp.exe
+C:\SRC\TrainingWinform\TimerApp\bin\Debug\TimerApp.pdb
+C:\SRC\TrainingWinform\TimerApp\obj\Debug\TimerApp.csprojAssemblyReference.cache
+C:\SRC\TrainingWinform\TimerApp\obj\Debug\TimerApp.Form1.resources
+C:\SRC\TrainingWinform\TimerApp\obj\Debug\TimerApp.Properties.Resources.resources
+C:\SRC\TrainingWinform\TimerApp\obj\Debug\TimerApp.csproj.GenerateResource.cache
+C:\SRC\TrainingWinform\TimerApp\obj\Debug\TimerApp.csproj.CoreCompileInputs.cache
+C:\SRC\TrainingWinform\TimerApp\obj\Debug\TimerApp.exe
+C:\SRC\TrainingWinform\TimerApp\obj\Debug\TimerApp.pdb

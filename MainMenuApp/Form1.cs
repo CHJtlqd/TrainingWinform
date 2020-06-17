@@ -85,5 +85,27 @@ namespace MainMenuApp
                 contextMenuStrip1.Show(e.Location);
             }
         }
+
+        private void textBox1_MouseMove(object sender, MouseEventArgs e)
+        {
+            LblMouseLocation.Text = e.Location.ToString();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            toolStripStatusLabel1.Text = MnuNewFile.Text;
+            toolStripComboBox1.Items.Add("Python");
+        }
+
+        private void Form1_Activated(object sender, EventArgs e)
+        {
+            button1.Focus();
+
+        }
+
+        private void toolStripButton1_Click(object sender, EventArgs e)
+        {
+            MnuNewFile_Click(sender, e);
+        }
     }
 }
