@@ -1,0 +1,14 @@
+C:\SRC\TrainingWinform\DataGraphApp\bin\Debug\DataGraphApp.exe.config
+C:\SRC\TrainingWinform\DataGraphApp\bin\Debug\DataGraphApp.exe
+C:\SRC\TrainingWinform\DataGraphApp\bin\Debug\DataGraphApp.pdb
+C:\SRC\TrainingWinform\DataGraphApp\obj\Debug\ChartApp.csprojAssemblyReference.cache
+C:\SRC\TrainingWinform\DataGraphApp\obj\Debug\DataGraphApp.Form1.resources
+C:\SRC\TrainingWinform\DataGraphApp\obj\Debug\DataGraphApp.Properties.Resources.resources
+C:\SRC\TrainingWinform\DataGraphApp\obj\Debug\ChartApp.csproj.GenerateResource.cache
+C:\SRC\TrainingWinform\DataGraphApp\obj\Debug\ChartApp.csproj.CoreCompileInputs.cache
+C:\SRC\TrainingWinform\DataGraphApp\obj\Debug\DataGraphApp.exe
+C:\SRC\TrainingWinform\DataGraphApp\obj\Debug\DataGraphApp.pdb
+C:\SRC\TrainingWinform\DataGraphApp\bin\Debug\MetroFramework.Design.dll
+C:\SRC\TrainingWinform\DataGraphApp\bin\Debug\MetroFramework.dll
+C:\SRC\TrainingWinform\DataGraphApp\bin\Debug\MetroFramework.Fonts.dll
+C:\SRC\TrainingWinform\DataGraphApp\obj\Debug\ChartApp.csproj.CopyComplete
