@@ -98,6 +98,7 @@ namespace BookRentalShop20
 
             DtpReleaseDate.CustomFormat = " ";
             DtpReleaseDate.Format = DateTimePickerFormat.Custom;
+            
             TxtIdx.Focus();
         }
 
@@ -186,11 +187,7 @@ namespace BookRentalShop20
             {
                 BtnSave_Click(sender, new EventArgs());
             }
-            else if (!(char.IsDigit(e.KeyChar) || e.KeyChar == Convert.ToChar(Keys.Back)))    //숫자와 백스페이스를 제외한 나머지를 바로 처리
-            {
-                MetroMessageBox.Show(this, "가격은 숫자만 입력이 가능합니다.", "오류",
-                     MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
+            
 
 
         }

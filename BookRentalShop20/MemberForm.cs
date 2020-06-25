@@ -151,6 +151,7 @@ namespace BookRentalShop20
                 parmEmail.Value = TxtEmail.Text;
                 cmd.Parameters.Add(parmEmail);
 
+
                 cmd.ExecuteNonQuery();
             }
         }

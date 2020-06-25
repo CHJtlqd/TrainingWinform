@@ -73,5 +73,11 @@ namespace BookRentalShop20
         {
             LblUserID.Text = Commons.LOGINUSERID;
         }
+
+        private void 책대여관리RToolStripMenuItem_Click(object sender, System.EventArgs e)
+        {
+            RentalForm form = new RentalForm();
+            InitChildForm(form, "책 대여관리");
+        }
     }
 }

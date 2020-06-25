@@ -1,0 +1,24 @@
+﻿<Page x:Class="BikeShop.Contact"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:BikeShop"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Contact">
+
+    <Grid HorizontalAlignment="Left" Margin="0,0,0,-0.4" Width="800" Height="450" VerticalAlignment="Top">
+        <TextBox Margin="173,50,49,377" TextWrapping="Wrap" FontSize="15"/>
+        <TextBox Margin="173,109,49,68" TextWrapping="Wrap" FontSize="15"/>
+        <TextBlock Margin="34,51,0,376.6" TextWrapping="Wrap" Text="Sender" FontSize="16" FlowDirection="RightToLeft" HorizontalAlignment="Left" Width="103"/>
+        <TextBlock Margin="34,110,0,0" TextWrapping="Wrap" Text="Message" FontSize="16" FlowDirection="RightToLeft" HorizontalAlignment="Left" Width="103" Height="22" VerticalAlignment="Top"/>
+        <Label>
+            <local:Car Speed="100" Color="Beige">
+                <local:Car.Driver>
+                    <local:Human FirstName="HongJune" HasDrivingLicense="True"/>
+                </local:Car.Driver>
+            </local:Car>
+        </Label>
+    </Grid>
+</Page>
