@@ -24,5 +24,10 @@ namespace BikeShop
         {
             InitializeComponent();
         }
+
+        private void Window_Activated(object sender, EventArgs e)
+        {
+
+        }
     }
 }
